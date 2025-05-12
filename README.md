@@ -1,7 +1,7 @@
-# BactoBot - Bacteria Information Assistant
+# BACTO_PEDIA - Bacteria Information Assistant
 
 ## Overview
-BactoBot is a Streamlit-based web application that provides detailed information about different types of bacteria. The application combines a local database with web scraping capabilities to deliver comprehensive bacterial information to users.
+BACTO_PEDIA is a Streamlit-based web application
 
 ## Libraries Used
 
@@ -58,7 +58,7 @@ BactoBot is a Streamlit-based web application that provides detailed information
 1. **Configuration and Setup**
    ```python
    st.set_page_config(
-       page_title="BactoBot - Comprehensive Bacteria Information",
+       page_title="BACTO_PEDIA - Comprehensive Bacteria Information",
        page_icon="🦠",
        layout="wide"
    )
@@ -116,7 +116,7 @@ BactoBot is a Streamlit-based web application that provides detailed information
 
 2. **Launch**
    ```bash
-   streamlit run bactobot.py
+   streamlit run bactopedia.py
    ```
 
 ## Future Improvements
